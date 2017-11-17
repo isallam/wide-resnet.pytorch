@@ -213,6 +213,7 @@ print('\n[Phase 3] : Training model')
 print('| Training Epochs = ' + str(num_epochs))
 print('| Initial Learning Rate = ' + str(args.lr))
 print('| Optimizer = ' + str(optim_type))
+print('| Using CUDA = ' + str(use_cuda))
 
 elapsed_time = 0
 for epoch in range(start_epoch, start_epoch+num_epochs):
